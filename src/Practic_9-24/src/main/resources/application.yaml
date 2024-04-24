@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: PracticJava_2_next
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5433/Test
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
